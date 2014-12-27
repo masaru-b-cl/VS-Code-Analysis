@@ -8,6 +8,7 @@ namespace CodeAnalysis
 {
   public class SomeClass
   {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", MessageId = "i")]
     public void DoSomething(int count, int i)
     {
       var newCount = countUp(count);
