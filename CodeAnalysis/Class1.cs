@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace codeAnalysis
+namespace CodeAnalysis
 {
-  public class someClass
+  public class SomeClass
   {
-    public void doSomething(int count, int i)
+    public void DoSomething(int count, int i)
     {
       var newCount = countUp(count);
     }
